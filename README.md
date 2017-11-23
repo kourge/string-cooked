@@ -21,6 +21,15 @@ same behavior as an untagged template literal, a purpose not satisfied by the
 built-in function `String.raw`. This module, `string-cooked`, is a function that
 serves the aforementioned purpose.
 
+## Installation
+
+`string-cooked` is
+[available on npm](https://www.npmjs.com/package/string-cooked):
+
+```
+npm install string-cooked
+```
+
 ## Behavior
 
 The function mimics two default behaviors.
