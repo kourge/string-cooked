@@ -1,0 +1,37 @@
+{
+  "name": "string-cooked",
+  "version": "1.0.0",
+  "description": "Like String.raw, but cooked",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "clean": "rm -rf ./lib",
+    "prebuild": "npm run clean",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kourge/string-cooked.git"
+  },
+  "keywords": ["template", "interpolation", "string", "strings"],
+  "author": "Wil Lee <kourge@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kourge/string-cooked/issues"
+  },
+  "homepage": "https://github.com/kourge/string-cooked#readme",
+  "devDependencies": {
+    "@types/jest": "^21.1.7",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.3",
+    "typescript": "^2.6.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json"]
+  }
+}
